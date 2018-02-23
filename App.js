@@ -11,6 +11,7 @@ export default class App extends React.Component {
 
   render() {
     if (!this.state.isLoadingComplete && !this.props.skipLoadingScreen) {
+        console.log("app loading!");
       return (
         <AppLoading
           startAsync={this._loadResourcesAsync}
@@ -19,7 +20,8 @@ export default class App extends React.Component {
         />
       );
     } else {
-      return (
+        console.log("app loaded!");
+        return (
         <View style={styles.container}>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
           {Platform.OS === 'android' && <View style={styles.statusBarUnderlay} />}

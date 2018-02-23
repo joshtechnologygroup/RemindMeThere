@@ -1,27 +1,152 @@
-import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
-import { ExpoLinksView } from '@expo/samples';
+import React, {Component} from 'react';
+import {
+    StyleSheet, View, PixelRatio, Platform, Dimensions, Text, LayoutAnimation, Keyboard,
+    TextInput, TouchableOpacity, AsyncStorage
+} from 'react-native';
+
+let TEXT_SIZE = (PixelRatio.get() <= 2) ? 17 : 19;
+let NAVBAR_HEIGHT = (Platform.OS === 'ios') ? 64 : 54;
+
+let {width: windowWidth, height: windowHeight} = Dimensions.get('window');
+let HEIGHT = windowHeight - NAVBAR_HEIGHT;
 
 export default class LinksScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Links',
-  };
+    static navigationOptions = {
+        title: 'Create a Reminder!',
+    };
 
-  render() {
-    return (
-      <ScrollView style={styles.container}>
-        {/* Go ahead and delete ExpoLinksView and replace it with your
-           * content, we just wanted to provide you with some helpful links */}
-        <ExpoLinksView />
-      </ScrollView>
-    );
-  }
+    constructor(props) {
+        super(props);
+        this.state = {
+            reminderTitle: '',
+            reminderContent: '',
+            reminders: {}
+        };
+
+    }
+
+    render() {
+        console.log("Links!");
+        return (
+            <View style={{flex: 1, backgroundColor: '#fff'}}>
+                <View style={{flex:1, paddingLeft:10, paddingRight:10}}>
+                    <TextInput
+                        onChangeText={(text) => this.setState({reminderTitle: text})}
+                        placeholder={"Reminder Title"}
+                        autoFocus={true}
+                        style={[styles.title]}
+                        value={this.state.reminderTitle}
+                    />
+                    <TextInput
+                        multiline={true}
+                        onChangeText={(text) => this.setState({reminderContent: text})}
+                        placeholder={"Enter Reminder Content"}
+                        style={[styles.reminder]}
+                        value={this.state.reminderContent}
+                    />
+                </View>
+                <TouchableOpacity style={[styles.saveBtn]}
+                                  disabled={(!(this.state.reminderTitle.length > 0 && this.state.reminderContent.length > 0))}
+                                  onPress={this.addReminder.bind(this)}>
+                    <Text style={[{
+                            fontWeight: "500",
+                            color: (this.state.reminderTitle.length > 0 && this.state.reminderContent.length > 0) ? "#FFF" : "rgba(255,255,255,.5)"
+                        }]}>
+                        Save
+                    </Text>
+                </TouchableOpacity>
+            </View>
+        );
+    }
+
+    addReminder() {
+        let reminder = {"id": this.generateID(),"reminderTitle": this.state.reminderTitle, "reminderContent": this.state.reminderContent};
+        // AsyncStorage.setItem('data', [].unshift(JSON.stringify(reminder)), () => {
+        //     let reminders =  this.cloneObject(this.state.reminders) //clone the current state
+        //     reminders.unshift(reminder); //add the new quote to the top
+        //     this.state = Object.assign({}, this.state, { reminders: reminders});
+        //     return this.state;
+        // });
+
+        AsyncStorage.getItem('data', (err, reminders) => {
+
+            if (reminders !== null) {
+                reminders = JSON.parse(reminders);
+                reminders.unshift(reminder); //add the new reminder to the top
+                AsyncStorage.setItem('data', JSON.stringify(reminders), () => {
+                    let reminders =  this.cloneObject(this.state.reminders) //clone the current state
+                    reminders.unshift(reminder); //add the new quote to the top
+                    this.state = Object.assign({}, this.state, { reminders: reminders});
+                    return this.state;
+                });
+            } else {
+                AsyncStorage.setItem('data', [].unshift(JSON.stringify(reminder)), () => {
+                    let reminders =  this.cloneObject(this.state.reminders) //clone the current state
+                    reminders.unshift(reminder); //add the new quote to the top
+                    this.state = Object.assign({}, this.state, { reminders: reminders});
+                    return this.state;
+                });
+            }
+        });
+    }
+
+    cloneObject(object){
+        return JSON.parse(JSON.stringify(object));
+    }
+
+    generateID() {
+        let d = new Date().getTime();
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            let r = (d + Math.random() * 16) % 16 | 0;
+            d = Math.floor(d / 16);
+            return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(5);
+        });
+    }
+
+    // _keyboardWillShow(e) {
+    //     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+    //
+    //     let newHeight = HEIGHT - e.endCoordinates.height;
+    //     this.setState({height: newHeight})
+    // }
+    //
+    // _keyboardWillHide(e) {
+    //     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+    //     this.setState({height: HEIGHT})
+    // }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: 15,
-    backgroundColor: '#fff',
-  },
+    container: {
+        flex: 1,
+        paddingTop: 15,
+        backgroundColor: '#fff',
+    },
+    saveBtn:{
+        width: windowWidth,
+        height: 44,
+        justifyContent: "center",
+        alignItems: 'center',
+        backgroundColor:"#6B9EFA"
+    },
+    reminder: {
+        fontSize: TEXT_SIZE,
+        lineHeight: 38,
+        color: "#333333",
+        padding: 16,
+        paddingLeft:0,
+        flex:1,
+        height: 200,
+        marginBottom:50,
+        borderTopWidth: 1,
+        borderColor: "rgba(212,211,211, 0.3)",
+    },
+    title: {
+        fontWeight: "400",
+        lineHeight: 22,
+        fontSize: 16,
+        height:25+32,
+        padding: 16,
+        paddingLeft:0
+    },
 });
