@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import { Platform, Text, View, StyleSheet } from 'react-native';
-import { Constants, Location, Permissions } from 'expo';
+import { Platform, Text, View, StyleSheet, Image } from 'react-native';
+import { Constants, Location, Permissions, MapView } from 'expo';
 
 // You can import from local files
 import AssetExample from './components/AssetExample';
 
 // or any pure javascript modules available in npm
 import { Card } from 'react-native-elements'; // 0.18.5
-import BackgroundGeolocation from "react-native-background-geolocation";
+import BackgroundGeolocation from "react-native-background-geolocation"; // 2.11.0
+
+import "@expo/vector-icons"; // 6.3.1
 
 export default class App extends Component {
   state = {
     location: null,
     errorMessage: null,
-    results: []
+    results: "[]",
+    mapRegion: { latitude: 37.78825, longitude: -122.4324, latitudeDelta: 0.0922, longitudeDelta: 0.0421 }
   };
 
   componentWillMount() {
@@ -22,7 +25,7 @@ export default class App extends Component {
         errorMessage: 'Oops, this will not work on Sketch in an Android emulator. Try it on your device!',
       });
     } else {
-      this._getLocationAsync();
+      // this._getLocationAsync();
       this._getResults();
     }
   }
@@ -41,10 +44,11 @@ export default class App extends Component {
     let response = [];
     if (this.state.errorMessage) {
       text = this.state.errorMessage;
+      console.log('test');
     } else if (this.state.location) {
       text = JSON.stringify(this.state.location);
       console.log(this.state.location);
-      console.log('HERE!!!!!!!!!');
+      console.log('HERE!!!!!!!hgdh!!');
       console.log(location);
       // let lat = '';
       // let long = '';
@@ -89,36 +93,76 @@ export default class App extends Component {
     //   console.error(error);
     // });
     let test1 = await this.test();
-    console.log(test1);
     this.setState({results: test1});
-    console.log(this.state.results);
-    console.log('qwertyuiuytrewertyuiuytrewertyuioi');
+    // console.log(this.state.results);
+    // console.log('qwertyuiuytrewertyuiuytrewertyuioi');
   };
 
-test = async() =>{
-  return fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=28.5032837,77.0859498&radius=5000&type=ATM&keyword=HDFC&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0')
-   .then((response) => response.json())
-   .then((responseData) =>
-   {
-       // console.log(this);
-       return JSON.stringify(responseData.results);
-       // console.log($this.state.results);
-    }).catch((error) => {
-    console.log('In ERROR');
-    console.error(error);
-  });
-};
+  test = async() =>{
+    return fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=28.5032837,77.0859498&radius=500&type=ATM&keyword=SBI&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0')
+     .then((response) => response.json())
+     .then((responseData) =>
+     {
+         return(JSON.stringify(responseData.results));
+      }).catch((error) => {
+      console.log('In ERROR');
+      console.error(error);
+    });
+  };
+
+  _handleMapRegionChange = mapRegion => {
+    this.setState({ mapRegion });
+  };
 
   render() {
-    return (
-      <View style={styles.container}>
-        <Text>{this.state.results}</Text>
+    console.log('##########')
+    // console.log(JSON.parse(this.state.results));
+    console.log(typeof(this.state.results));
+    console.log('**********');
+    // var test = JSON.parse(this.state.results);
+    // console.log(test.geometry);
+    // JSON.parse(this.state.results).forEach(function(object){
+    //   console.log(object);
+    // });
+    // var test = JSON.stringify(JSON.parse(this.state.results)[0]);
 
-        <MapView
-           style={{ alignSelf: 'stretch', height: 200 }}
-           region={this.state.mapRegion}
-           onRegionChange={this._handleMapRegionChange}
-         />
+
+      // <MapView
+      //   style={{ alignSelf: 'stretch', height: 200 }}
+      //   region={this.state.mapRegion}
+      //   onRegionChange={this._handleMapRegionChange}
+      // />
+
+
+    return (
+      <View>
+          {
+
+            JSON.parse(this.state.results).map(function(object, i){
+            var t1 = object.geometry.location.lat || 37.78825;
+            var t2 = object.geometry.location.lng || 37.78825;
+
+            // var t3 = JSON.stringify(object.name) || '';
+            // var t4 = JSON.stringify(object.vicinity) || '';
+            return(
+              <View>
+            <MapView key={i}
+              style={{ alignSelf: 'stretch', height: 200 }}
+              region={{latitude: t1, longitude:t2, latitudeDelta: 0.0922, longitudeDelta: 0.0421 }}
+              showsUserLocation="true"
+              showsPointsOfInterest="true"
+              zoom={200}
+            >
+
+            <MapView.Marker key={i}
+              coordinate={{latitude: t1, longitude:t2, latitudeDelta: 0.0922, longitudeDelta: 0.0421}}
+              // title={t3}
+              // description={t4}
+            />
+            </MapView>
+
+            </View>
+          )})}
       </View>
     );
   }
