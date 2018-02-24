@@ -59,40 +59,56 @@ export default class LinksScreen extends React.Component {
         );
     }
 
-    addReminder() {
-        let reminder = {"id": this.generateID(),"reminderTitle": this.state.reminderTitle, "reminderContent": this.state.reminderContent};
-        // AsyncStorage.setItem('data', [].unshift(JSON.stringify(reminder)), () => {
-        //     let reminders =  this.cloneObject(this.state.reminders) //clone the current state
-        //     reminders.unshift(reminder); //add the new quote to the top
-        //     this.state = Object.assign({}, this.state, { reminders: reminders});
-        //     return this.state;
-        // });
+    async addReminder() {
+        let reminder = {
+            "id": this.generateID(),
+            "reminderTitle": this.state.reminderTitle,
+            "reminderContent": this.state.reminderContent
+        };
 
-        AsyncStorage.getItem('data', (err, reminders) => {
+        console.log(' ');
+        console.log(' ');
+        console.log('NEW REMINDER: ' + JSON.stringify(reminder));
+        console.log(' ');
+        console.log(' ');
 
-            if (reminders !== null) {
+        try {
+            // await AsyncStorage.clear();
+            let reminders = await AsyncStorage.getItem('data');
+            console.log('the reminders i got are: ' + reminders);
+            if (!this.isEmpty(reminders)) {
+                console.log("Creating...");
+
                 reminders = JSON.parse(reminders);
-                reminders.unshift(reminder); //add the new reminder to the top
-                AsyncStorage.setItem('data', JSON.stringify(reminders), () => {
-                    let reminders =  this.cloneObject(this.state.reminders) //clone the current state
-                    reminders.unshift(reminder); //add the new quote to the top
-                    this.state = Object.assign({}, this.state, { reminders: reminders});
-                    return this.state;
-                });
+                reminder = JSON.parse('{' + '\"id' + reminder.id + '":' + JSON.stringify(reminder) + '}');
+
+                reminders = {
+                    ...reminders,
+                    ...reminder
+                };
+
+                await AsyncStorage.setItem('data', JSON.stringify(reminders));
+
             } else {
-                AsyncStorage.setItem('data', [].unshift(JSON.stringify(reminder)), () => {
-                    let reminders =  this.cloneObject(this.state.reminders) //clone the current state
-                    reminders.unshift(reminder); //add the new quote to the top
-                    this.state = Object.assign({}, this.state, { reminders: reminders});
-                    return this.state;
-                });
+                console.log("Creating for the first time....");
+                await AsyncStorage.setItem('data', '{' + '\"id' + reminder.id + '":' + JSON.stringify(reminder) + '}');
             }
-        });
+        } catch (error) {
+            // Error retrieving data
+            console.log(error);
+        }
     }
 
     cloneObject(object){
         return JSON.parse(JSON.stringify(object));
     }
+
+    isEmpty(obj) {
+        if (obj === null) return true;
+        if (Array.isArray(obj) || typeof(obj) === "string") return obj.length === 0;
+        for (let key in obj) if (obj.hasOwnProperty(key)) return false;
+        return true;
+    };
 
     generateID() {
         let d = new Date().getTime();
