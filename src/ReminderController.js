@@ -107,7 +107,7 @@ export default class ReminderController extends Component {
         console.log(' ');
 
         try {
-            await AsyncStorage.clear();
+//            await AsyncStorage.clear();
             reminders_from_storage = await AsyncStorage.getItem('data');
             console.log('the reminders i got are: ' + reminders_from_storage);
             if (!this.isEmpty(reminders_from_storage)) {

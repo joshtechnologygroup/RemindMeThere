@@ -80,12 +80,7 @@ export default class LocationController extends Component<{}> {
     location_json = await this.fetchSearchResults(location.coords.latitude, location.coords.longitude);
     this.addEvent('location', new Date(location.timestamp), location_json);
     this.setState({results: location_json});
-    console.log(notification_json)
-    console.log('Where!')
-//    PushNotification.localNotificationSchedule({
-//        message: 'Believe you me' || '',
-//        date: new Date(Date.now())
-//      });
+    console.log(location_json)
   }
 
   onClickGetCurrentPosition() {
@@ -217,9 +212,10 @@ export default class LocationController extends Component<{}> {
     reminders_from_storage = await AsyncStorage.getItem('data');
     console.log('In location');
 //    console.log(reminders_from_storage[0]);
-    reminder = JSON.stringify(JSON.parse(reminders_from_storage)[0].reminderTitle);
+    reminder = JSON.stringify(JSON.parse(reminders_from_storage)[2].reminderTitle);
     console.log(reminder);
-    return fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+lat+','+long+'8&radius=100&keyword='+reminder+'&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0')
+    console.log('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+lat+','+long+'8&radius=100&keyword='+reminder+'&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0');
+    return fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=28.5032816,77.08596768&radius=100&keyword=%22amcat%22&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0')
      .then((response) => response.json())
      .then((responseData) =>
      {
