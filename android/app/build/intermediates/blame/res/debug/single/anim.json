@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
         "source": "/home/ubuntu/.android/build-cache/a2cee20384f2012688ad44125aee87369002359c/output/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",

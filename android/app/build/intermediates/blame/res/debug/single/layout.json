@@ -24,12 +24,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
-        "source": "/home/ubuntu/.android/build-cache/c30e06d87cb20316664c146cfb82e0b8e3151bc0/output/res/layout/fps_view.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
+        "source": "/home/ubuntu/.android/build-cache/c30e06d87cb20316664c146cfb82e0b8e3151bc0/output/res/layout/fps_view.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
@@ -56,12 +56,12 @@
         "source": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/node_modules/react-native-prompt-android/android/build/intermediates/bundles/default/res/layout/edit_text.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_custom.xml",
         "source": "/home/ubuntu/.android/build-cache/17e3518484c9879af0b54daf196124ecd7af17b0/output/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
@@ -76,12 +76,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/ubuntu/.android/build-cache/a28336a7072e54353ada3c31340cbc5f0cb6946b/output/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/ubuntu/.android/build-cache/a28336a7072e54353ada3c31340cbc5f0cb6946b/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",

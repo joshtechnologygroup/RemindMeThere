@@ -12,12 +12,12 @@
         "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
@@ -28,12 +28,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
@@ -56,12 +56,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
         "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
@@ -84,12 +84,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",

@@ -88,12 +88,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
@@ -108,12 +108,12 @@
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",

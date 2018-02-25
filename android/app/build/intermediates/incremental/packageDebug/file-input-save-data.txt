@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 25 09:58:37 IST 2018
+#Sun Feb 25 10:06:59 IST 2018
 20.base=/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/resources-debug.ap_
 143.base=/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/resources-debug.ap_
 493.base=/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/resources-debug.ap_

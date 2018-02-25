@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
-  View
+  View,
+  AsyncStorage
 } from 'react-native';
 
 import App from './App';
@@ -46,6 +47,7 @@ export default class LocationController extends Component<{}> {
 
   componentDidMount() {
     BackgroundGeolocation.on('location', this.onLocation.bind(this));
+//    BackgroundGeolocation.on('motionchange', this.onLocation.bind(this));
 
     BackgroundGeolocation.configure({
       distanceFilter: 10,
@@ -58,7 +60,8 @@ export default class LocationController extends Component<{}> {
       },
       autoSync: true,
       debug: true,
-      logLevel: BackgroundGeolocation.LOG_LEVEL_VERBOSE
+      logLevel: BackgroundGeolocation.LOG_LEVEL_VERBOSE,
+      enableHeadless: true
     }, (state) => {
       console.log('- Configure success: ', state);
       this.setState({
@@ -77,6 +80,12 @@ export default class LocationController extends Component<{}> {
     location_json = await this.fetchSearchResults(location.coords.latitude, location.coords.longitude);
     this.addEvent('location', new Date(location.timestamp), location_json);
     this.setState({results: location_json});
+    console.log(notification_json)
+    console.log('Where!')
+//    PushNotification.localNotificationSchedule({
+//        message: 'Believe you me' || '',
+//        date: new Date(Date.now())
+//      });
   }
 
   onClickGetCurrentPosition() {
@@ -156,47 +165,44 @@ export default class LocationController extends Component<{}> {
 
   render() {
     return (
-    <View>
-    <Text>Yay</Text>
-    </View>
-//      <Container style={styles.container}>
-//        <Header style={styles.header}>
-//          <Left>
-//            <Button small transparent onPress={this.onClickHome.bind(this)}>
-//              <Icon active name="arrow-back" style={{color: '#000'}}/>
-//            </Button>
-//          </Left>
-//          <Body>
-//            <Title style={styles.title}>RemindMeThere</Title>
-//          </Body>
-//          <Right>
-//            <Switch onValueChange={() => this.onToggleEnabled()} value={this.state.enabled} />
-//          </Right>
-//        </Header>
-//
-//        <Content style={styles.content}>
-//          <View style={styles.list}>
-//            {this.renderEvents()}
-//          </View>
-//        </Content>
-//
-//        <Footer style={styles.footer}>
-////          <Left style={{flex:0.3}}>
-////            <Button small info>
-////              <Icon active name="md-navigate" style={styles.icon} onPress={this.onClickGetCurrentPosition.bind(this)} />
-////            </Button>
-////          </Left>
-//          <Body style={styles.footerBody}>
-//            <Button small danger bordered onPress={this.onClickClear.bind(this)}><Icon name="trash" /></Button>
-//          </Body>
-//          <Right style={{flex:0.3}}>
-//            <Button small danger={this.state.isMoving} success={!this.state.isMoving} onPress={this.onClickChangePace.bind(this)}>
-//              <Icon active name={(this.state.isMoving) ? 'pause' : 'play'} style={styles.icon}/>
-//            </Button>
-//          </Right>
-//        </Footer>
-//        <PushController/>
-//      </Container>
+      <Container style={styles.container}>
+        <Header style={styles.header}>
+          <Left>
+            <Button small transparent onPress={this.onClickHome.bind(this)}>
+              <Icon active name="arrow-back" style={{color: '#000'}}/>
+            </Button>
+          </Left>
+          <Body>
+            <Title style={styles.title}>RemindMeThere</Title>
+          </Body>
+          <Right>
+            <Switch onValueChange={() => this.onToggleEnabled()} value={this.state.enabled} />
+          </Right>
+        </Header>
+
+        <Content style={styles.content}>
+          <View style={styles.list}>
+            {this.renderEvents()}
+          </View>
+        </Content>
+
+        <Footer style={styles.footer}>
+          <Left style={{flex:0.3}}>
+            <Button small info>
+              <Icon active name="md-navigate" style={styles.icon} onPress={this.onClickGetCurrentPosition.bind(this)} />
+            </Button>
+          </Left>
+          <Body style={styles.footerBody}>
+            <Button small danger bordered onPress={this.onClickClear.bind(this)}><Icon name="trash" /></Button>
+          </Body>
+          <Right style={{flex:0.3}}>
+            <Button small danger={this.state.isMoving} success={!this.state.isMoving} onPress={this.onClickChangePace.bind(this)}>
+              <Icon active name={(this.state.isMoving) ? 'pause' : 'play'} style={styles.icon}/>
+            </Button>
+          </Right>
+        </Footer>
+        <PushController/>
+      </Container>
     );
   }
 
@@ -208,7 +214,12 @@ export default class LocationController extends Component<{}> {
   }
 
   async fetchSearchResults(lat, long) {
-    return fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+lat+','+long+'8&radius=500&type=ATM&keyword=SBI&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0')
+    reminders_from_storage = await AsyncStorage.getItem('data');
+    console.log('In location');
+//    console.log(reminders_from_storage[0]);
+    reminder = JSON.stringify(JSON.parse(reminders_from_storage)[0].reminderTitle);
+    console.log(reminder);
+    return fetch('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='+lat+','+long+'8&radius=100&keyword='+reminder+'&key=AIzaSyCXt5crZnOkyCx52RECUnDxWTtOxG6uXi0')
      .then((response) => response.json())
      .then((responseData) =>
      {

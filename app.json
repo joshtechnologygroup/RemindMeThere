@@ -1,4 +1,9 @@
 {
   "name": "RemindMeThere",
-  "displayName": "RemindMeThere"
+  "displayName": "RemindMeThere",
+    "icon": {
+    "ios": "images/logo-150-web.png",
+    "android": "images/logo-150-web.png",
+    "default": "images/logo-150-web.png"
+  }
 }

@@ -36,6 +36,15 @@ class Root extends Component<{}> {
         }));        
       });
     });
+
+//    BackAndroid.addEventListener("hardwareBackPress", () => {
+//      if (navigator.getCurrentRoutes().length > 1) {
+//        navigator.pop()
+//        return true // do not exit app
+//      } else {
+//        return false // exit app
+//      }
+//    })
   }
   render() {
     return (<View></View>);

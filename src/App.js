@@ -19,7 +19,7 @@ export default class App extends Component<{}> {
       index: 0,
       key: null,
       actions: [
-        NavigationActions.navigate({ routeName: 'LocationController', params: navigation.state.params})
+        NavigationActions.navigate({ routeName: 'Home', params: navigation.state.params})
       ]
     }));
   }

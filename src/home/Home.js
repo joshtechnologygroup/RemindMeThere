@@ -46,11 +46,11 @@ export default class Home extends Component<{}> {
     BackgroundGeolocation.stop();
     BackgroundGeolocation.removeListeners();
 
-    if (!this.state.username) {
-      this.getUsername().then(this.doGetUsername.bind(this)).catch(() => {
-        this.onClickEditUsername();
-      });
-    }
+//    if (!this.state.username) {
+//      this.getUsername().then(this.doGetUsername.bind(this)).catch(() => {
+//        this.onClickEditUsername();
+//      });
+//    }
   }
   onClickNavigate(routeName) {
     this.props.navigation.dispatch(NavigationActions.reset({
@@ -160,10 +160,10 @@ export default class Home extends Component<{}> {
               </Item>
               <CardItem style={{margin: 0}}>
                 <Left>
-                  <Button danger small full onPress={this.onClickEditUsername.bind(this)}><Text>Edit username</Text></Button>
+                  <Button><Text></Text></Button>
                 </Left>
                 <Right>
-                  <Button small full onPress={this.onClickViewServer.bind(this)}><Text>View server</Text></Button>
+                  <Button><Text></Text></Button>
                 </Right>
               </CardItem>
             </Card>
