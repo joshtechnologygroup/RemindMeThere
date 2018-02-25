@@ -146,7 +146,7 @@ export default class Home extends Component<{}> {
         </Header>
         <Body style={styles.body}>
             <H1 style={styles.h1}>Example Applications</H1>
-            <Button full style={styles.button} onPress={() => this.onClickNavigate('ReminderLocator')}><Text>Hello World</Text></Button>
+            <Button full style={styles.button} onPress={() => this.onClickNavigate('LocationController')}><Text>Hello World</Text></Button>
         </Body>
 
         <Footer style={styles.footer}>

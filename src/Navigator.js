@@ -9,7 +9,8 @@ import {
 import { StackNavigator, NavigationActions } from 'react-navigation';
 
 import Home from './home/Home';
-import ReminderLocator from './ReminderLocator.js';
+import LocationController from './LocationController.js';
+import ReminderController from './ReminderController.js';
 
 class Root extends Component<{}> {  
   componentDidMount() {
@@ -48,8 +49,11 @@ export default Navigator = StackNavigator({
   Home: {
     screen: Home
   },
-  ReminderLocator: {
-    screen: ReminderLocator
+  LocationController: {
+    screen: LocationController
+  },
+  ReminderController: {
+    screen: ReminderController
   }
 }, {
   initialRouteName: 'Root',

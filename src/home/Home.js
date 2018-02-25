@@ -145,28 +145,29 @@ export default class Home extends Component<{}> {
           </Body>
         </Header>
         <Body style={styles.body}>
-            <Button full style={styles.button} onPress={() => this.onClickNavigate('ReminderLocator')}><Text>Reminder Locator</Text></Button>
+            <Button full style={styles.button} onPress={() => this.onClickNavigate('LocationController')}><Text>Reminder Locator</Text></Button>
+            <Button full style={styles.button} onPress={() => this.onClickNavigate('ReminderController')}><Text>Create Reminder</Text></Button>
         </Body>
 
-//        <Footer style={styles.footer}>
-//            <Card style={styles.userInfo}>
-//              <Text style={styles.p}>These apps will post locations to Transistor Software's demo server.  You can view your tracking in the browser by visiting:</Text>
-//              <Text style={styles.url}>{this.state.url}</Text>
-//
-//              <Item inlineLabel disabled>
-//                <Label>Username</Label>
-//                <Input value={this.state.username} />
-//              </Item>
-//              <CardItem style={{margin: 0}}>
-//                <Left>
-//                  <Button danger small full onPress={this.onClickEditUsername.bind(this)}><Text>Edit username</Text></Button>
-//                </Left>
-//                <Right>
-//                  <Button small full onPress={this.onClickViewServer.bind(this)}><Text>View server</Text></Button>
-//                </Right>
-//              </CardItem>
-//            </Card>
-//        </Footer>
+        <Footer style={styles.footer}>
+            <Card style={styles.userInfo}>
+              <Text style={styles.p}>These apps will post locations to Transistor Software's demo server.  You can view your tracking in the browser by visiting:</Text>
+              <Text style={styles.url}>{this.state.url}</Text>
+
+              <Item inlineLabel disabled>
+                <Label>Username</Label>
+                <Input value={this.state.username} />
+              </Item>
+              <CardItem style={{margin: 0}}>
+                <Left>
+                  <Button danger small full onPress={this.onClickEditUsername.bind(this)}><Text>Edit username</Text></Button>
+                </Left>
+                <Right>
+                  <Button small full onPress={this.onClickViewServer.bind(this)}><Text>View server</Text></Button>
+                </Right>
+              </CardItem>
+            </Card>
+        </Footer>
       </Container>
     );
   }

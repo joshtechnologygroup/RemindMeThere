@@ -28,7 +28,7 @@ import { Row } from 'react-native-easy-grid';
 
 import BackgroundGeolocation from "./react-native-background-geolocation";
 
-export default class HelloWorld extends Component<{}> {
+export default class LocationController extends Component<{}> {
 
   constructor(props) {
     super(props);
@@ -156,44 +156,47 @@ export default class HelloWorld extends Component<{}> {
 
   render() {
     return (
-      <Container style={styles.container}>
-        <Header style={styles.header}>
-          <Left>
-            <Button small transparent onPress={this.onClickHome.bind(this)}>
-              <Icon active name="arrow-back" style={{color: '#000'}}/>
-            </Button>
-          </Left>
-          <Body>
-            <Title style={styles.title}>RemindMeThere</Title>
-          </Body>
-          <Right>
-            <Switch onValueChange={() => this.onToggleEnabled()} value={this.state.enabled} />
-          </Right>
-        </Header>
-
-        <Content style={styles.content}>
-          <View style={styles.list}>
-            {this.renderEvents()}
-          </View>
-        </Content>
-
-        <Footer style={styles.footer}>
-          <Left style={{flex:0.3}}>
-            <Button small info>
-              <Icon active name="md-navigate" style={styles.icon} onPress={this.onClickGetCurrentPosition.bind(this)} />
-            </Button>
-          </Left>
-          <Body style={styles.footerBody}>
-            <Button small danger bordered onPress={this.onClickClear.bind(this)}><Icon name="trash" /></Button>
-          </Body>
-          <Right style={{flex:0.3}}>
-            <Button small danger={this.state.isMoving} success={!this.state.isMoving} onPress={this.onClickChangePace.bind(this)}>
-              <Icon active name={(this.state.isMoving) ? 'pause' : 'play'} style={styles.icon}/>
-            </Button>
-          </Right>
-        </Footer>
-        <PushController/>
-      </Container>
+    <View>
+    <Text>Yay</Text>
+    </View>
+//      <Container style={styles.container}>
+//        <Header style={styles.header}>
+//          <Left>
+//            <Button small transparent onPress={this.onClickHome.bind(this)}>
+//              <Icon active name="arrow-back" style={{color: '#000'}}/>
+//            </Button>
+//          </Left>
+//          <Body>
+//            <Title style={styles.title}>RemindMeThere</Title>
+//          </Body>
+//          <Right>
+//            <Switch onValueChange={() => this.onToggleEnabled()} value={this.state.enabled} />
+//          </Right>
+//        </Header>
+//
+//        <Content style={styles.content}>
+//          <View style={styles.list}>
+//            {this.renderEvents()}
+//          </View>
+//        </Content>
+//
+//        <Footer style={styles.footer}>
+////          <Left style={{flex:0.3}}>
+////            <Button small info>
+////              <Icon active name="md-navigate" style={styles.icon} onPress={this.onClickGetCurrentPosition.bind(this)} />
+////            </Button>
+////          </Left>
+//          <Body style={styles.footerBody}>
+//            <Button small danger bordered onPress={this.onClickClear.bind(this)}><Icon name="trash" /></Button>
+//          </Body>
+//          <Right style={{flex:0.3}}>
+//            <Button small danger={this.state.isMoving} success={!this.state.isMoving} onPress={this.onClickChangePace.bind(this)}>
+//              <Icon active name={(this.state.isMoving) ? 'pause' : 'play'} style={styles.icon}/>
+//            </Button>
+//          </Right>
+//        </Footer>
+//        <PushController/>
+//      </Container>
     );
   }
 
