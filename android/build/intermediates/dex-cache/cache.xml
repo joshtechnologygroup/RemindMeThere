@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/1bd844f4c4313337c080bb5747cafa44f5d75cd3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_66d635472bb33688d0756a35cf8c0a0a2f6eee96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/7918be90d6115059d3c68f49202aa79be3f705bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_987a12b5c157f184c5d344da9d4f2a084ea8e95d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/d3ef13f491e191db879b42ee5034a1e28fd3f0d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_1976997510cf56c2d41e0f1503410c4ced2ce8a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="139535a69a4239db087de9bab0bee568bf8e0b70">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.21_11c53b198ee680b3a64799282c0f1f8501b2c48e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/node_modules/react-native-prompt-android/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f45c0a51805a6fde212382c2da492a32db6c3bb9">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_dbacba2f66d070ce52bd1d6a77715ea36703bcb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/aabf1a24e73ae4395e12a12f1d628a95c490b80e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_65b377737b1949393bac457640a38d92a88f9f79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/58f11ff601ef60a2fca60a07dda5f562203b1567/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_21177c97911a752ccbfcca8d88377ed29cae6741.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/611f077090ff527e118b8ce475b6479bebb622d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="601ebd8fa027a3dad924ffa1cb14689ced5aa436">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_a5f646e9621b1036b138319be17d8bf763f7ac80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/c5f20e640220dac9678ca5df744a067d9f3b53b8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_30f9b7adedc7f0a3a1e9dc6156f37fbbce8912d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/e066e86e44027ff04adc2d1dea994e34055c5dc5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_612e534e44b9351312f8ec0c46a438af6102b6a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_65bb29d415978375d01cba7ff75fb0fbd4889f6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/c30e06d87cb20316664c146cfb82e0b8e3151bc0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3b7bd52e7b84674c67e424dde64f7b7990d7bc54">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_e227869a047a262fe12a39becb9ac86430fa5a3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/361e0cfa20cce8c832d0d133012331658cb66ea3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_5a550a3115bc61cb3e90237ab14144dbe92d2e1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/d4ccf9700ecf7884f2a6462a39bd0555c7b53879/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_cea5a26deba476d5ed99bfaa82ef9a6d3181e13e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/e910fdb2081a33fa2f7a506943ef4d2d43b984fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_c2c7f7291be8bba7be406a51c8f2f93fb490e251.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/node_modules/react-native-device-info/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="89628bd7ec6ff545da2492cdde2789c81216de93">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_c9dc76e8820393604e316cc5d0c0c8e5f175e15b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/3d79df9662eaf320520a2d371701ec7aa992ff2a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_db7261da5073da76a8e956e03295503ebe8da0f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/932bfd67e5c304b849af6c40fdb191faaafcfd5e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_9dc443ba5f5acb60dc2ec724ae9afddf0a621d8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0c9b895ddecf7c8de30d20c4495215b1dfb5e98f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/node_modules/react-native-push-notification/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b1390e56f05d607488bfff5cecdec94d26450bc4">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_194e2c46fcc00063d74d7df521f31b433349634e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/3373204fd626fe825d79c66ce6b382a5df6bfe80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="531c33d3697000a05e9493a2d0f09ba41fa114d3">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_a7ba0d93bdf4d98387c6786b4825eb2c8966534d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/c01f1935d61aa80b8163e1fd95944e42cce6827c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_f0b27be31cbad98908b317f81cec17576df0cbb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_63d6ca8971ee5d450a024ba703dee41f01198541.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/904aaa5e33e6c55a92f16133cfde1264dbfea01a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_ceb014730682e5352108f5b8e6df82051c28934e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_3572dd5778e9aca909c0a9d79a2d8c1e1c5a6506.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/c0884ef0e0720597b63a2c5a2977fd93bb8723a4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="346d3de9f113614b94aec80ec8b1d0eb5000eff8">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_7b7db0f3e61b881e7ff89b88597b3d0307f79165.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/58af7012d7e75b1d43cf2377a30845527c460969/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_c96ede59ade590e0313a3cbe86a71d779a19edbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/node_modules/react-native-background-geolocation/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5b1ba601b3eb34c80a952c17b85135c91fd8a136">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_70adaadea00215816c5d85deae697bc81a4f5096.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_7acd0f97fd484600cf938493fa5965120fc0ec23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/a28336a7072e54353ada3c31340cbc5f0cb6946b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_e8da96390868e54fccb62e8a0137bb21d561e1bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-core/1.1.1-6/93117015ae639e6482e4e1ad5f988c3f61d09fe0/logback-android-core-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="93117015ae639e6482e4e1ad5f988c3f61d09fe0">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/logback-android-core-1.1.1-6_c6a19c95b7f369ca09c202599f7ab03483279e04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/b5044e8d9166853bd60e2c55df7b42704d8f451e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_6e17ce600a77fc88c37c8b6a82772166c6e8ecdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_c7555829a343ecffa2dea7e57c8c682efe04ea9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="296095c7caf41c1c3b0a75250b564bfc3cd5077b">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_547bddddd07d8c7ae15898e3741d9fe8f9748f96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_03d4fdd269216032cd28a44add2e76d3baba8c37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/dd3e15509b6465e0188dff1cacf1310fd3567775/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_6749e1be059eeb922b159eba8e35f0b9d5c6dfd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/11531062c0fe2cc35c3f21277a97c28bc88200cd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_4b0fe8444119655675af9123b712d84629213f83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/2ec183f4eada77ed424456fdeb39ba1e492e31c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_4022a73685a6097bf545e3f0f7a756732831d73f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_69c64264426013a7bc71981ac8cbcaca9b49f82a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/f210243d0c28c1b15d71886f90ea4c72e20efffc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d60a027af33ff57d9c5b0194ed9cd5fae886ead5">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_572aca311d4b89189f2301aba7dc5cca2f579a00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_df2d01d2275fa67f7c56ce3b9a72d223c7d7ba77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_8a43488bcd9609f1a4da404cb498f84a2ed6941e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/637ee809a828f08756f97f3b8531320f394cc5d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="813b76d9a18510b942419d75e194d3456083a6df">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_be3f52db58359f0d2e02a810ff981aaf0628c9cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e15ca5f11/okhttp-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/okhttp-3.8.1_3f8a54503ca7b33ce28679be40f0cdbab4afbb85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/a6b7bb04d48b60a21653fe6de3d37a83a8568fd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_b33dee5d0094469a14e3256342f80799e5260d76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/17e3518484c9879af0b54daf196124ecd7af17b0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_970d3169a92e78e56f8c8d9a20c0b6d08291ce6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/3cd94103719b9b4ae03e2ae4813b62b293ce1e37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_6eb01af500dd48fc96b7c26742bc630c194f7329.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-classic/1.1.1-6/614c66c9ece69eef48c65a8558de4fd7266d9f69/logback-android-classic-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="614c66c9ece69eef48c65a8558de4fd7266d9f69">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/logback-android-classic-1.1.1-6_0c9c091f716c5c3da27bd3aecf887ccc0fcf078f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.gradle/caches/modules-2/files-2.1/com.github.tony19/apktool-lib/1.4.4-3/1d0125bf578cb30dd192496db56c2d937495248a/apktool-lib-1.4.4-3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d0125bf578cb30dd192496db56c2d937495248a">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/apktool-lib-1.4.4-3_71f4ad73bd5c3c73897b3a7bc2ecb746768dfa12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/node_modules/react-native-background-fetch/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f510e7cf8bed19ce5d2e0a3ce34336fe757c03c1">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/classes_267573b03c1934fba72c435e15586caf34c48fdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu/.android/build-cache/c30e06d87cb20316664c146cfb82e0b8e3151bc0/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_38518c6a383c4dc087767dd07e2c8a0cad3de6da.jar" />
+    </item>
+
+</items>

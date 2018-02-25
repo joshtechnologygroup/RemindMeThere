@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/xml/tslocationmanager_file_provider_path.xml",
+        "source": "/home/ubuntu/.android/build-cache/f210243d0c28c1b15d71886f90ea4c72e20efffc/output/res/xml/tslocationmanager_file_provider_path.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/xml/tslocationmanager_file_provider_path.xml",
+        "source": "/home/ubuntu/.android/build-cache/be66a324a1531ae53d2b10359ab6343bd562f9a6/output/res/xml/tslocationmanager_file_provider_path.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/ubuntu/.android/build-cache/a2cee20384f2012688ad44125aee87369002359c/output/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/ubuntu/.android/build-cache/c30e06d87cb20316664c146cfb82e0b8e3151bc0/output/res/xml/preferences.xml"
+    }
+]

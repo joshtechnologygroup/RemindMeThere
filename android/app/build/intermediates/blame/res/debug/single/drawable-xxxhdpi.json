@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png",
+        "source": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png",
+        "source": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_src_views_assets_backicon.png"
+    }
+]

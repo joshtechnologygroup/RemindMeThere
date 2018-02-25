@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/ubuntu/.android/build-cache/a28336a7072e54353ada3c31340cbc5f0cb6946b/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/ubuntu/.android/build-cache/a28336a7072e54353ada3c31340cbc5f0cb6946b/output/res/layout-v16/notification_template_custom_big.xml"
+    }
+]

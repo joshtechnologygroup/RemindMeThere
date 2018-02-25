@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/ubuntu/project/Hackathon2018Q1/rn-background-geolocation-demo/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/ubuntu/project/Hackathon2018Q1/RemindMeThere/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]
